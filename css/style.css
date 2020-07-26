@@ -44,6 +44,7 @@ header:before {
 audio {
     border: 20px solid rgba(255, 255, 255, 0.5);
     border-top: none;
+    border-radius: 0;
     display: block;
     margin: auto;
     width: 450px;
