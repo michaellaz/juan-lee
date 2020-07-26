@@ -85,6 +85,32 @@ main p {
     margin: 20px;
 }
 
+button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+    padding: 10px 30px;
+    margin: 50px;
+    transition: background 0.3s linear, color 0.3s linear;
+}
+
+button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+#share-screen {
+    margin-bottom: 50px;
+}
+
+#share-screen img {
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
 @media screen and (max-width: 1200px) {
     #album-art {
         width: 300px;
