@@ -14,7 +14,7 @@ document.querySelector("#copy-to-clipboard").addEventListener("click", () => {
         return; 
     }
 
-    navigator.clipboard.writeText("https://michaellaz.github.io/juan-lee/")
+    navigator.clipboard.writeText("https://michaellaz.netlify.app")
         .then(() => alert("Copied URL to clipboard."))
         .catch(() => alert("Failed to copy URL to clipboard."));
 });
