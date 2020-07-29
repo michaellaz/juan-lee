@@ -67,8 +67,12 @@ main p {
     margin: 5px; 
 }
 
+.social-links {
+    margin: 30px auto;
+}
+
 .social-links img {
-    margin-top: 50px;
+    margin-top: 20px;
     border: none;
     width: 32px;
     height: 32px;
@@ -84,6 +88,14 @@ main p {
 .social-links a {
     text-decoration: none;
     margin: 20px;
+}
+
+.social-links a:first-child {
+    margin-left: 0;
+}
+
+.social-links a:last-child {
+    margin-right: 0;
 }
 
 button {
