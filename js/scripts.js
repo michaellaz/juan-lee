@@ -23,10 +23,10 @@ document.querySelector("#copy-to-clipboard").addEventListener("click", () => {
             const copiedFloater = document.createElement("div");
             document.body.appendChild(copiedFloater);
 
-            copiedFloater.innerHTML = "Copied URL";
+            copiedFloater.innerHTML = "Copied Link";
 
-            copiedFloater.style.position = "absolute";
-            copiedFloater.style.top = "50%";
+            copiedFloater.style.position = "fixed";
+            copiedFloater.style.top = "10%";
             copiedFloater.style.left = "50%";
             copiedFloater.style.transform = "translate(-50%, 0)";
             copiedFloater.style.background = "black";
@@ -35,7 +35,7 @@ document.querySelector("#copy-to-clipboard").addEventListener("click", () => {
             copiedFloater.style.padding = "10px";
             copiedFloater.style.opacity = 0.75;
 
-            await sleep(1000);
+            await sleep(3000);
 
             document.body.removeChild(copiedFloater);
         })());
